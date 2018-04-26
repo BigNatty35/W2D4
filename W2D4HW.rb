@@ -60,6 +60,8 @@ def cleaver_pus(array)
   array[fish_idx]
 end
 
+tiles_array = ["up", "right-up", "right", "right-down", "down", "left-down", "left",  "left-up" ]
+
 def slow_dance(direction, tiles_array)
   tiles_array.each_index do |idx|
     return idx if tiles_array[idx] == direction
